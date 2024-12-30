@@ -4,6 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+::selection {
+    color: white; 
+    background-color: #242424;
+  }
+  
+
+
 .button-jittery {
     animation: jittery 4s infinite;
     z-index: 9
