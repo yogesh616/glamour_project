@@ -1,0 +1,102 @@
+@import 'https://www.1001fonts.com/download/font/barlow-condensed.thin.ttf';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-jittery {
+    animation: jittery 4s infinite;
+    z-index: 9
+}
+@keyframes jittery {
+    5%,50% {
+        transform: scale(1)
+    }
+
+    10% {
+        transform: scale(.9)
+    }
+
+    15% {
+        transform: scale(1.15)
+    }
+
+    20% {
+        transform: scale(1.15) rotate(-5deg)
+    }
+
+    25% {
+        transform: scale(1.15) rotate(5deg)
+    }
+
+    30% {
+        transform: scale(1.15) rotate(-3deg)
+    }
+
+    35% {
+        transform: scale(1.15) rotate(2deg)
+    }
+
+    40% {
+        transform: scale(1.15) rotate(0)
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hide {
+        display: none;
+    }
+    .show {
+        width: 100vw;
+        padding: 0;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+
+
+
+.thumbs, .animated {
+    display: none;
+}
+
+.custom-font {
+    font-family:  sans-serif;
+    font-size: 1.01rem;
+    margin: 10px 0px 5px;
+    color: #212121;
+    min-height: 23px;
+}
+
+.sec-head {
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.register {
+    animation: popup 3s  5s infinite ease-in-out;
+    animation-delay: 5s;
+}
+
+@keyframes popup {
+    0% {
+        transform: scale(0.8);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    30% {
+        transform: rotate(-35deg);
+    }
+    40% {
+        transform: rotate(35deg);
+    }
+    100% {
+        transform: scale(0.8);
+    }
+}
