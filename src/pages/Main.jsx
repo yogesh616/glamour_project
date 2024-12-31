@@ -19,17 +19,20 @@ function Main() {
   return (
     <div>
       <Carousel />
-      <div style={{background: '#515151'}} className='w-full h-36 flex items-center justify-between'>
-        {
-            divImages.map((image, index) => (
-              <div key={index} className='flex justify-center items-center h-full px-11'>
-                <img className='w-48 h-32' src={image} alt='Logo' />
-              </div>
-            ))
+      <div
+  style={{ background: '#515151' }}
+  className="w-full h-auto grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 py-4"
+>
+  {divImages.map((image, index) => (
+    <div
+      key={index}
+      className="flex justify-center items-center px-4"
+    >
+      <img className="w-48 h-32" src={image} alt="Logo" />
+    </div>
+  ))}
+</div>
 
-  
-        }
-      </div>
       <Desription />
       <BeautyQueens />
       <Track />

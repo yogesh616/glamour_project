@@ -9,7 +9,7 @@ const Header = () => {
      
 
 <nav className="bg-white border-gray-200  dark:border-gray-700">
-  <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <div className="w-full flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="https://theinternationalglamourproject.com/wp-content/uploads/2022/10/TIGP_logo_.png" className="h-8" alt="Flowbite Logo" />
         

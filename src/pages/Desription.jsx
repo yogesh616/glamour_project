@@ -3,7 +3,7 @@ import "./desc.css";
 
 function Description() {
   return (
-    <div className=" h-auto flex flex-col items-center justify-center bg-gray-100 py-16" style={{width: '100vw'}}>
+    <div className=" h-auto flex flex-col items-center justify-center bg-gray-100 py-16" >
       <div className="text-center px-4">
         <h3 className="text-sm font-medium text-gray-500 tracking-wide uppercase">
           Guts | Glamour | Glory
@@ -22,11 +22,10 @@ function Description() {
           based in the United States of America.
         </p>
         <div className="mt-8">
-        <button className="px-8 z-30 py-4 bg-white rounded-md text-black relative font-semibold after:-z-20 after:absolute after:h-1 after:w-1 after:bg-gray-950 hover:text-white after:left-0 overflow-hidden after:top-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700  text-2xl"
-       >
-  <span className="z-10 relative group-hover:text-white transition-colors duration-300">KNOW MORE</span>
-  <div className="absolute inset-0 bg-gray-950 scale-0 group-hover:scale-100 transition-transform duration-700 ease-in-out rounded-md z-0"></div>
-</button>
+        <a href="http://theinternationalglamourproject.com/press-media/" className="button style-1 btn-lit mode-1" data-wow-delay=".5s">
+
+		<span>Know more</span>
+	</a>
 
         </div>
         <div className="mt-8 flex justify-center gap-4">

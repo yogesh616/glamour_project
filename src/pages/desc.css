@@ -64,3 +64,148 @@
     transform: rotate(-5deg);
     transition: all .8s;
 }
+
+
+
+.button.style-1 {
+  background: transparent;
+  padding: 12px 35px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  display: inline-block
+}
+
+.button.style-1:focus {
+  outline: none
+}
+
+.button.style-1:hover {
+  outline: none;
+  color: #fff
+}
+
+.button.style-1:hover:after {
+  bottom: -30px;
+  transform: rotate(0deg)
+}
+
+.button.style-1:hover span {
+  color: #fff!important
+}
+
+.button.style-1:after {
+  content: '';
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  right: -30px;
+  bottom: 130%;
+  background: #1e1e1e;
+  transform: rotate(-5deg);
+  transition: all .8s
+}
+
+.button.style-1 span {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  z-index: 2;
+  transition: all .8s
+}
+
+.button.style-1.btn-lit:hover span {
+  color: #fff
+}
+
+.button.style-1.btn-blc {
+  background: #1e1e1e
+}
+
+.button.style-1.btn-blc:after {
+  background: #fff
+}
+
+.button.style-1.btn-blc span {
+  color: #fff
+}
+
+.button.style-1.btn-blc:hover span {
+  color: #1e1e1e
+}
+
+.button.style-1.btn-color {
+  background: #75dab4;
+  border-color: #75dab4
+}
+
+.button.style-1.btn-color:after {
+  background: #fff
+}
+
+.button.style-1.btn-color span {
+  color: #0c0f16
+}
+
+.button.style-1.btn-color:hover span {
+  color: #75dab4
+}
+
+.button.style-1.btn-lg {
+  padding: 14px 40px
+}
+
+.button.style-1.btn-lg span {
+  font-size: 14px
+}
+
+.button.style-1.btn-wit {
+  background: #fff;
+  border-color: #fff
+}
+
+.button.style-1.btn-wit:after {
+  background: #090909
+}
+
+.button.style-1.btn-wit span {
+  color: #1e1e1e
+}
+
+.button.style-1.btn-wit:hover span {
+  color: #fff
+}
+
+.button.style-1.btn-radius {
+  border-radius: 30px
+}
+
+.button.style-1 {
+  color: #000;
+  border: 2px solid #1e1e1e
+}
+
+.button.style-1 .btn-lit {
+  border-color: #0c0f16;
+  color: #0c0f16
+}
+
+.button.style-1:after {
+  background: #0c0f16
+}
+
+.avo-dark-mode .button.style-1 {
+  color: #fff;
+  border: 2px solid #fff
+}
+
+.avo-dark-mode .button.style-1 .btn-lit {
+  border-color: #fff;
+  color: #fff
+}
+
+.avo-dark-mode .button.style-1:after {
+  background: #fff
+}

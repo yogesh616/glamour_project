@@ -1,6 +1,7 @@
 import React from "react";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function Track() {
     const slides = [
@@ -30,30 +31,40 @@ function Track() {
         },
     ];
 
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        adaptiveHeight: true,
+    };
+
     return (
-        <div className="w-full flex items-center justify-center">
-            <div className="w-full max-w-4xl text-center mx-auto flex items-center justify-center">
-                <Carousel showArrows={true} infiniteLoop={true} autoPlay={true}>
-                    {slides.map((item, index) => (
-                        <div
-                            key={index}
-                            className="flex flex-col items-center justify-center border rounded-lg p-6 shadow-lg"
-                        >
-                            <img
-                                src={item.image}
-                                alt={`Slide ${index + 1}`}
-                                className="rounded-full border-2 border-gray-300 mb-4"
-                                style={{ width: "70px", height: "70px" }}
-                            />
-                            <h1 className="font-bold text-lg mb-2">{item.name}</h1>
-                            <h3 className="text-sm text-gray-600 mb-4">{item.address}</h3>
-                            <div
-                                className="text-sm text-gray-800"
-                                dangerouslySetInnerHTML={{ __html: item.text }}
-                            ></div>
+        <div className="w-full flex items-center justify-center p-4">
+            <div className="w-full max-w-md min-h-28">
+                <Slider {...settings}>
+                    {slides.map((slide, index) => (
+                        <div key={index} className="flex flex-col items-center text-center bg-white shadow-lg p-6 rounded-lg">
+                            <h3 className="text-xl font-semibold mb-2">{slide.name}</h3>
+                            <p className="text-gray-500 mb-4">{slide.address}</p>
+                            <div className="w-24 h-24 mb-4 text-center mx-auto">
+                                <img
+                                    className="rounded-full w-full h-full object-cover"
+                                    src={slide.image}
+                                    alt={slide.name}
+                                    loading="lazy"
+                                />
+                            </div>
+                            <p
+                                className="text-gray-700"
+                                dangerouslySetInnerHTML={{ __html: slide.text }}
+                            ></p>
                         </div>
                     ))}
-                </Carousel>
+                </Slider>
             </div>
         </div>
     );

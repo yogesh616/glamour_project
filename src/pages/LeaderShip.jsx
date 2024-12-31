@@ -12,7 +12,7 @@ const LeaderShip = () => {
   ]
 
   return (
-    <div className=" py-12 px-80" style={{background: '#f2f2f4'}}>
+    <div className="w-screen py-12 px-4 md:px-16 max-w-full" style={{background: '#f2f2f4'}}>
       {/* Title Section */}
       <div className="text-left">
         <h3 className="text-gray-500 uppercase tracking-wider text-sm">What We Offer</h3>
@@ -103,11 +103,7 @@ const LeaderShip = () => {
 
       {/* Register Button */}
       <div className="mt-8 text-center">
-      <button
-         className="uppercase px-8 z-30 py-4 bg-white rounded-md text-black relative font-semibold after:-z-20 after:absolute after:h-1 after:w-1 after:bg-gray-950 hover:text-white after:left-0 overflow-hidden after:top-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700  text-2xl"
-          >
-              register now
-             </button>
+      <a href="http://theinternationalglamourproject.com/press-media/" className="button style-1 btn-lit mode-1" data-wow-delay=".5s"><span>REGISTER NOW</span></a>
       </div>
     </div>
   );

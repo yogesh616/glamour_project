@@ -4,6 +4,48 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (min-width: 768px) {
+    nav {
+        width: 100%;
+    }
+}
+.slider {
+    width: 200px !important;
+}
+
+.carousel-container {
+    width: 80%;
+    margin: auto;
+}
+
+.testimonial-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 388px !important;
+    background-color: red;
+
+}
+.slick-track {
+    width: 1200px;
+}
+.author-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.author-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.testi-text {
+    font-style: italic;
+}
 
 ::selection {
     color: white; 

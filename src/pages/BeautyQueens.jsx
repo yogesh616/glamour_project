@@ -34,14 +34,14 @@ const BeautyQueens = () => {
   ];
 
   return (
-    <div className="bg-white py-12 px-4 sm:px-6 lg:px-8">
+    <div className="bg-white py-12 px-4 sm:px-6 lg:px-8 w-full">
       <h3 className="text-center text-gray-500 font-medium uppercase">
         Success Story
       </h3>
       <h1 className="text-center text-4xl font-extrabold text-gray-900 mt-2 uppercase">
         Of Our Beauty Queens
       </h1>
-      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="mt-8 grid grid-cols-1 lg:grid-cols-4 gap-6">
         {queens.map((queen) => (
           <div key={queen.id} className="relative group">
             <div className="relative w-full h-80 sm:h-96 overflow-hidden rounded-lg">
