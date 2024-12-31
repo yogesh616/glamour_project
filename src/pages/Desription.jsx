@@ -5,15 +5,15 @@ function Description() {
   return (
     <div className=" h-auto flex flex-col items-center justify-center bg-gray-100 py-16" >
       <div className="text-center px-4">
-        <h3 className="text-sm font-medium text-gray-500 tracking-wide uppercase">
+        <h3 className="text-sm font-medium text-gray-500 tracking-wide uppercase oswald">
           Guts | Glamour | Glory
         </h3>
-        <h1 className="text-3xl sm:text-5xl font-extrabold text-black mt-4 uppercase">
+        <h1 className="barlov text-3xl sm:text-5xl font-extrabold text-black mt-4 uppercase">
           The International Glamour Project®
           <br />
           <span className="block">Teen | Miss | Mrs India</span>
         </h1>
-        <p className="text-gray-600 mt-6 mx-auto max-w-2xl text-sm sm:text-base leading-relaxed">
+        <p className="text-gray-600 mt-6 mx-auto max-w-2xl text-sm sm:text-base leading-relaxed poppins">
           The International Glamour Project® Teen | Miss | Mrs is India’s
           biggest platform that works towards creating an ‘Ecosystem for Women
           Empowerment’ through Pageantry. This journey of Guts, Glamour & Glory
@@ -21,7 +21,7 @@ function Description() {
           Miss & Mrs India in the 3 most prestigious International Pageants,
           based in the United States of America.
         </p>
-        <div className="mt-8">
+        <div className="mt-8 oswald">
         <a href="http://theinternationalglamourproject.com/press-media/" className="button style-1 btn-lit mode-1" data-wow-delay=".5s">
 
 		<span>Know more</span>

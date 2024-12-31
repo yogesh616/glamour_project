@@ -48,9 +48,9 @@ function Track() {
                 <Slider {...settings}>
                     {slides.map((slide, index) => (
                         <div key={index} className="flex flex-col items-center text-center bg-white shadow-lg p-6 rounded-lg">
-                            <h3 className="text-xl font-semibold mb-2">{slide.name}</h3>
-                            <p className="text-gray-500 mb-4">{slide.address}</p>
-                            <div className="w-24 h-24 mb-4 text-center mx-auto">
+                            <h3 className="text-2xl font-extrabold mb-2 opensans" style={{fontWeight: '800'}}>{slide.name}</h3>
+                            <p className="text-gray-500 mb-4 poppins">{slide.address}</p>
+                            <div className="w-24 h-24 mb-4 text-center mx-auto ">
                                 <img
                                     className="rounded-full w-full h-full object-cover"
                                     src={slide.image}
@@ -59,7 +59,7 @@ function Track() {
                                 />
                             </div>
                             <p
-                                className="text-gray-700"
+                                className="text-gray-700 poppins"
                                 dangerouslySetInnerHTML={{ __html: slide.text }}
                             ></p>
                         </div>

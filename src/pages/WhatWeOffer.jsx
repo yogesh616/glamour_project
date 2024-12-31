@@ -15,8 +15,8 @@ const WhatWeOffer = () => {
     <div className="w-screen py-12 px-4 md:px-16 max-w-full" style={{ background: "#f2f2f4" }}>
       {/* Title Section */}
       <div className="text-center">
-        <h3 className="text-gray-500 uppercase tracking-wider text-sm">What We Offer</h3>
-        <h1 className="text-2xl md:text-4xl font-bold text-gray-900 mt-2">
+        <h3 className="text-gray-500 uppercase tracking-wider text-sm barlow">What We Offer</h3>
+        <h1 className="text-2xl md:text-4xl font-bold text-gray-900 mt-2 barlow">
           TIGP<sup>®️</sup> <span className="uppercase">The International Pageant</span>
         </h1>
       </div>
@@ -50,7 +50,7 @@ const WhatWeOffer = () => {
             <span className="text-2xl">🎓</span>
             <div className="">
               <h3 className="text-lg font-bold">Training</h3>
-              <p className="text-gray-700 text-sm leading-relaxed">
+              <p className="text-gray-700 text-sm leading-relaxed poppins">
                 The International Glamour Project® Teen I Miss I Mrs India offers
                 Professional training, Model Photoshoots, Brand Endorsements to the
                 participants which includes in-depth learning and hands-on experience for
@@ -62,7 +62,7 @@ const WhatWeOffer = () => {
             <span className="text-2xl">🏆</span>
             <div className="">
               <h3 className="text-lg font-bold">Opportunity</h3>
-              <p className="text-gray-700 text-sm leading-relaxed">
+              <p className="text-gray-700 text-sm leading-relaxed poppins">
                 TIGP® Teen I Miss I Mrs India provides a prestigious opportunity to win
                 the crown and represent India or your country (for International
                 Delegates) on the International Platform in USA.
