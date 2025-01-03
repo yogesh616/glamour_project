@@ -70,7 +70,7 @@ const BrandEndorsements = () => {
             <div className="w-96">
               <h3 className="text-lg font-bold">Training</h3>
               <p className="text-gray-700 text-sm leading-relaxed">
-              We at TIGP® Teen I Miss I Mrs India offer multiple opportunities to our participants.
+              We at The Glam Talent Teen I Miss I Mrs India offer multiple opportunities to our participants.
                In the world of glamour, influence carries great weightage.
               </p>
             </div>

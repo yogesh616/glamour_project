@@ -9,16 +9,16 @@ function Description() {
           Guts | Glamour | Glory
         </h3>
         <h1 className="barlov text-3xl sm:text-5xl font-extrabold text-black mt-4 uppercase">
-          The International Glamour Project®
+          The  Glam Talent
           <br />
           <span className="block">Teen | Miss | Mrs India</span>
         </h1>
         <p className="text-gray-600 mt-6 mx-auto max-w-2xl text-sm sm:text-base leading-relaxed poppins">
-          The International Glamour Project® Teen | Miss | Mrs is India’s
+          The  Glam Talent Teen | Miss | Mrs is India’s
           biggest platform that works towards creating an ‘Ecosystem for Women
           Empowerment’ through Pageantry. This journey of Guts, Glamour & Glory
           will entitle you to represent your country in the categories of Teen,
-          Miss & Mrs India in the 3 most prestigious International Pageants,
+          Miss & Mrs India in the 3 most prestigious ,
           based in the United States of America.
         </p>
         <div className="mt-8 oswald">
@@ -29,11 +29,11 @@ function Description() {
 
         </div>
         <div className="mt-8 flex justify-center gap-4">
-          <button className="flex items-center px-6 py-3 text-sm font-medium text-white bg-purple-600 hover:bg-purple-700 rounded-md transition duration-300">
+          <button className="pink-purple flex items-center px-6 py-3 text-sm font-medium text-white bg-purple-600 hover:bg-purple-700 rounded-md transition duration-300">
             <i className="fab fa-apple mr-2"></i>
             iOS App
           </button>
-          <button className="flex items-center px-6 py-3 text-sm font-medium text-white bg-purple-600 hover:bg-purple-700 rounded-md transition duration-300">
+          <button className="pink-purple flex items-center px-6 py-3 text-sm font-medium text-white bg-purple-600 hover:bg-purple-700 rounded-md transition duration-300">
             <i className="fab fa-android mr-2"></i>
             Android App
           </button>

@@ -17,7 +17,7 @@ const LeaderShip = () => {
       <div className="text-left">
         <h3 className="text-gray-500 uppercase tracking-wider text-sm">What We Offer</h3>
         <h1 className="text-4xl font-bold text-gray-900 mt-2 uppercase">
-        TIGP®️ Leadership
+        The Glam Talent Leadership
         </h1>
       </div>
 
@@ -55,7 +55,7 @@ const LeaderShip = () => {
             <div className="w-96">
               <h3 className="text-lg font-bold">Training</h3>
               <p className="text-gray-700 text-sm leading-relaxed">
-              TIGP®️ ensures overall growth of our participants.
+              The Glam Talent ensures overall growth of our participants.
                Our mentors individually understand all participants
                 and make sure they excel not only in modelling
                and acting but also becoming social workers,

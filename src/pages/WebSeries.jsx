@@ -16,7 +16,7 @@ const WebSeries = () => {
       <div className="text-left">
         <h3 className="text-gray-500 uppercase tracking-wider text-sm">What We Offer</h3>
         <h1 className="text-4xl font-bold text-gray-900 mt-2 uppercase">
-        TIGP®️ Webseries
+        The Glam Talent Webseries
         </h1>
       </div>
 
@@ -55,7 +55,7 @@ const WebSeries = () => {
               <h3 className="text-lg font-bold">Training</h3>
               <p className="text-gray-700 text-sm leading-relaxed">
               We have our very own production- 
-              TIGP®️ productions private limited.
+              Glam Talent productions private limited.
                Participants get a chance to be seen by the public
                 eye by strengthening their media presence.
               </p>

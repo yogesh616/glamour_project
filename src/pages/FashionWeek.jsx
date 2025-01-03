@@ -60,9 +60,9 @@ const FashionWeek = () => {
             <div className="w-96">
               <h3 className="text-lg font-bold">Training</h3>
               <p className="text-gray-700 text-sm leading-relaxed">
-              TIGP®️ is proud of its worldwide tie ups and collaborations. 
-              The “International” in The International Glamour Project®️ is our proud asset where
-               we have associations with international pageants such as the New York FW & London FW.
+              The Glam Talent is proud of its worldwide tie ups and collaborations. 
+              The “International” in The Glam Talent is our proud asset where
+               we have associations with The Glam Talent such as the New York FW & London FW.
               </p>
             </div>
           </div>

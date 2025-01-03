@@ -1,0 +1,4 @@
+.artist-dropdown {
+    z-index: 12 !important;
+    cursor: pointer;
+}

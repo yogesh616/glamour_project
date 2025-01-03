@@ -13,7 +13,7 @@ function Footer() {
             alt="TIGP Logo"
           />
           <div className="text-sm space-y-1">
-            <p>The International Glamour Project®️ is an Indo-US alliance that</p>
+            <p>The Glam Talent is an Indo-US alliance that</p>
             <p>believes in creating an ‘Ecosystem for Women Empowerment’</p>
             <p>through Pageantry.</p>
           </div>
@@ -50,10 +50,10 @@ function Footer() {
 
           {/* App Buttons */}
           <div className="flex items-center justify-center lg:justify-end gap-4">
-            <button className="px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-md text-base">
+            <button className="pink-purple px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-md text-base">
               iOS
             </button>
-            <button className="px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-md text-base">
+            <button className="pink-purple px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-md text-base">
               Android
             </button>
           </div>
@@ -66,8 +66,7 @@ function Footer() {
       {/* Footer Bottom */}
       <div className="w-full max-w-6xl text-center text-sm mt-4 px-4">
         <p>
-          Copyright © 2023 All Rights Reserved – The International Glamour
-          Project® | <a href="#" className="underline">Terms and Conditions</a> |{" "}
+          Copyright © 2023 All Rights Reserved – The Glam Talent | <a href="#" className="underline">Terms and Conditions</a> |{" "}
           <a href="#" className="underline">Privacy Policy</a> | (A Subsidiary of
           Dynamic Sports and Event Management LLP)
         </p>

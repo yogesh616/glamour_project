@@ -9,7 +9,7 @@ function Track() {
             name: 'Meghasmita Asapu (Age - 37)',
             address: 'Bangalore, Karnataka, India',
             image: 'https://theinternationalglamourproject.com/wp-content/uploads/2022/10/meghasmita-1.jpg',
-            text: '<p>Since The International Glamour Project<sup>®️</sup> is not my 1st attempt at pageantry, I can confidently say that this platform stands apart from the rest. As a team, this platform is extremely transparent in communication and also equally approachable. A special mention to Dr. Akshata Prabhu who has valuable experience in pageantry and an excellent network.</p>'
+            text: '<p>Since The Glam Talent is not my 1st attempt at pageantry, I can confidently say that this platform stands apart from the rest. As a team, this platform is extremely transparent in communication and also equally approachable. A special mention to Dr. Akshata Prabhu who has valuable experience in pageantry and an excellent network.</p>'
         },
         {
             name: 'Rashna Karai (Age - 25)',
@@ -21,13 +21,13 @@ function Track() {
             name: 'Uttara Iyer (Age - 16)',
             address: 'Mumbai, Maharashtra, India',
             image: 'https://theinternationalglamourproject.com/wp-content/uploads/2022/10/uttara-thumb-1.jpg',
-            text: '<p>As a confident teenager, I set foot in the world of pageantry with The International Glamour Project<sup>®️</sup>. I truly believe that I am a dreamer, believer, and next-gen leader who has the zest and commitment to make a difference, but without The International Glamour Project<sup>®️</sup> and their support, I would never have discovered this side of myself. It has been a really wonderful journey.</p>'
+            text: '<p>As a confident teenager, I set foot in the world of pageantry with The Glam Talent. I truly believe that I am a dreamer, believer, and next-gen leader who has the zest and commitment to make a difference, but without The Glam Talent and their support, I would never have discovered this side of myself. It has been a really wonderful journey.</p>'
         },
         {
             name: 'Diya Merchant (Age - 16)',
             address: 'Mumbai, Maharashtra, India',
             image: 'https://theinternationalglamourproject.com/wp-content/uploads/2022/10/diya-merchant-thumb.jpg',
-            text: '<p>Being a participant of The International Glamour Project<sup>®️</sup> has not only boosted my confidence but has also given me a new goal and opportunity at a very young age. Learning so much from the Mentors in every session has already enriched my life. I am proud to be associated with this wonderful pageant.</p>'
+            text: '<p>Being a participant of The  Glam Talent has not only boosted my confidence but has also given me a new goal and opportunity at a very young age. Learning so much from the Mentors in every session has already enriched my life. I am proud to be associated with this wonderful pageant.</p>'
         },
     ];
 
@@ -47,7 +47,7 @@ function Track() {
             <div className="w-full max-w-md min-h-28">
                 <Slider {...settings}>
                     {slides.map((slide, index) => (
-                        <div key={index} className="flex flex-col items-center text-center bg-white shadow-lg p-6 rounded-lg">
+                        <div key={index} className=" flex flex-col items-center text-center bg-white shadow-lg p-6 rounded-lg ">
                             <h3 className="text-2xl font-extrabold mb-2 opensans" style={{fontWeight: '800'}}>{slide.name}</h3>
                             <p className="text-gray-500 mb-4 poppins">{slide.address}</p>
                             <div className="w-24 h-24 mb-4 text-center mx-auto ">
